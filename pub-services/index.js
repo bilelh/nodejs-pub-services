@@ -1,4 +1,4 @@
-var pubService = require('./pub-services/pubs.service');
+var pubService = require('./services/pubs.service');
 
 var listePub = pubService.findAllPubs();
 console.log("Liste des pubs : " + listePub)
